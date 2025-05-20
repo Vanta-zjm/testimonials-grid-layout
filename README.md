@@ -11,7 +11,7 @@ A multi-card testimonial section built with HTML and CSS Grid. This project was 
 
 ## 🌐 Preview
 
-[Live Demo (GitHub Pages)](https://Vanta-zjm.github.io/testimonials-grid-layout/)
+[Live Demo (GitHub Pages)](https://github.com/Vanta-zjm/frontend-projects.git)
 
 ## 🛠️ Built With
 
