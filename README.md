@@ -6,7 +6,7 @@ A multi-card testimonial section built with semantic HTML and CSS Grid. Complete
 [👉 View Online](https://vanta-zjm.github.io/testimonials-grid-layout/index.html)
 
 ## 📸 Preview  
-![Project Screenshot](preview.png)
+![Project Screenshot](assets/preview.jpeg)
 
 ## 🛠️ Built With
 - HTML5
