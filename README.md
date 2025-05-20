@@ -1,28 +1,34 @@
-# Vanta's Front-End Projects
+# Testimonials Grid Layout
 
-Welcome to my front-end project showcase!  
-This repository contains a collection of practice works and mini-projects I’ve built using **HTML**, **CSS**, and **JavaScript**.
+A multi-card testimonial section built with HTML and CSS Grid. This project was created as part of a Frontend Mentor challenge to practice responsive layout skills and card-based UI composition.
 
----
+## 🔧 Features
 
-## 🔧 Tech Stack
+- Responsive grid layout
+- Card-based design with consistent spacing and shadows
+- Semantic and accessible HTML structure
+- Visual theme with color balance and typography
+
+## 🌐 Preview
+
+[Live Demo (GitHub Pages)](https://yourusername.github.io/testimonials-grid-layout/)
+
+## 🛠️ Built With
 
 - HTML5
-- CSS3 (Flexbox, Grid, Responsive Design)
-- JavaScript (DOM Manipulation, Events)
+- CSS3 (Grid + Flexbox)
+- Google Fonts
 
----
+## 📸 Screenshots
 
-## 🧩 Projects
+*(Insert preview screenshots here)*
 
-| 项目名称 | 技术点 | 简介 |
-|----------|--------|------|
-| [Signature Generator](./signature-generator) | JavaScript, DOM | 基于输入生成个性签名，支持模板字符串与样式变化 |
-| [Testimonials Grid Layout](./testimonials-grid-layout) | HTML + CSS (Flexbox) | 多卡片评价排版，样式精细，视觉层级明确 |
-| [Product Card Layout](./product-card-layout) | HTML + CSS (Fonts, Flex) | 产品信息卡片展示，含自定义字体与响应排版 |
+## 🎯 What I Learned
 
-> 📌 更多项目陆续更新中，敬请期待！
+- Applying CSS Grid for layout flexibility
+- Visual hierarchy and spacing control
+- Sharpening replication accuracy for UI designs
 
----
+## 📄 License
 
-## 📁 Folder Structure
+This project is licensed under the MIT License.
