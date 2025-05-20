@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../font/Rubik-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 1440px;
+    font-family: 'Rubik',sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 126px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+}
+.l-bg{
+    content: '';
+    position: absolute;
+    left: -80px;
+    top: 0;
+    width: 500px;
+    height: 700px;
+    background: linear-gradient(to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 0 0 270px 230px;
+    z-index: 0;
+}
+.r-bg{
+    content: '';
+    position: absolute;
+    right: -76px;
+    bottom: 0;
+    width: 400px;
+    height: 680px;
+    background: linear-gradient(to bottom, hsla(293, 100%, 63%, 0.03), hsla(264, 100%, 61%, 0.03));
+    border-radius: 240px 160px 0 0;
+    z-index: 0;
+}
+.mockup,.content{
+    z-index: 1;
+}
+
+
+/*mockup*/
+.mockup{
+    width: 250px;
+    height: 506px;
+    border: 10px solid #fff;
+    border-radius: 35px ;
+    position: relative;
+    overflow: hidden;
+    font-size: 8px;
+    box-shadow: 1px 1px 100px #999;
+    background-color: hsl(270, 20%, 96%);
+}
+.mockup .top-bg{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 130px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+}
+
+/*header*/
+.mockup header{
+    width: 100%;
+    height: 67px;
+    background: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .left{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+header .back button{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    margin: 20px 0 0 10px;
+}
+header .person{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+.person img{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.person img:hover{
+    transform: scale(1.08);
+}
+.person .detail{
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+}
+.person .detail:hover{
+    cursor: pointer;
+}
+.detail p:last-child{
+    color: hsl(276, 100%, 81%);
+    font-size: 8px;
+}
+header .more button{
+    display: inline-block;
+    margin: 20px 10px 0 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+/*main*/
+.mockup .main{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+}
+/*left chat*/
+.chat.left{
+    align-self: flex-start;
+    background-color: hsl(276, 55%, 90%);
+    color: hsl(276, 55%, 52%);
+    padding: 8px 10px;
+    border-radius: 12px 12px 12px 4px;
+    max-width: 110px;
+    font-weight: 400;
+}
+/*right chat*/
+.chat.right{
+    align-self: flex-end;
+    background-color: #fff;
+    color: hsl(271, 15%, 43%);
+    padding: 8px 10px;
+    border-radius: 12px 12px 4px 12px;
+    max-width: 110px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    font-weight: 400;
+}
+/*first chat*/
+.first{
+    margin-top: 8px;
+}
+/*image*/
+.image{
+    align-self: flex-end;
+    display: flex;
+    gap: 10px;
+}
+.image img{
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.image img:hover{
+    transform: scale(1.08);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+/*plan-option*/
+.plan-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    padding: 10px 12px;
+    border-radius: 12px 12px 12px 4px;
+    width: 136px;
+    cursor: pointer;
+}
+.plan-option input[type="checkbox"] {
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid hsl(289, 100%, 72%);
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-right: 6px;
+}
+.plan-option input[type="checkbox"]::before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+.plan-option input[type="checkbox"]:checked::before {
+    opacity: 1;
+}
+.plan-option span {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
+    font-size: 10px;
+    margin-right: auto;
+}
+.plan-option h3 {
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+/*textarea*/
+.textarea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 8px 12px;
+    margin: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.textarea input[type=text]{
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    font-size: 10px;
+    padding: 6px 8px;
+    color: #000000;
+    background-color: transparent;
+}
+.textarea input::placeholder{
+    color: hsl(206, 6%, 79%);
+}
+.textarea button{
+    background-color: hsl(271, 36%, 24%);
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bolder;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content{
+    max-width: 450px;
+    width: 100%;
+    margin-right: -110px;
+}
+.content h1{
+    font-weight: 700;
+    color: hsl(271, 36%, 24%);
+    margin-bottom: 24px;
+    font-size: 36px;
+}
+.content p{
+    color: hsl(270, 7%, 64%);
+    font-weight: 400;
+    line-height: 1.8em;
+}
