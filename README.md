@@ -6,7 +6,7 @@ A responsive testimonial section designed to showcase user feedback for a fictio
 [👉 View Online](https://vanta-zjm.github.io/testimonials-grid-layout/index.html)
 
 ## 📸 Preview  
-![Project Screenshot](assets/preview.jpeg)
+[👉 View Online]![Project Screenshot](assets/preview.jpeg)
 
 ## 🛠️ Built With
 - HTML5
