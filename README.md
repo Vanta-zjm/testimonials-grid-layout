@@ -1,6 +1,6 @@
 # Testimonials Grid Layout
 
-A multi-card testimonial section built with semantic HTML and CSS Grid. Completed as part of a layout replication challenge.
+A responsive testimonial section designed to showcase user feedback for a fictional product or service. Built using semantic HTML and CSS Grid, this layout emphasizes clarity, balance, and visual hierarchy. Completed as part of a layout replication challenge.
 
 ## 🌐 Live Demo  
 [👉 View Online](https://vanta-zjm.github.io/testimonials-grid-layout/index.html)
